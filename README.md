@@ -36,7 +36,7 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 
 ### GRAPHICAL REPRESENTATION
 
-![image](https://github.com/Monisha-11/q-learning/assets/93427240/01dc3ef9-7906-412b-b0ba-a7469c21e557)
+<img width="553" alt="image" src="https://github.com/Monisha-11/q-learning/assets/93427240/01dc3ef9-7906-412b-b0ba-a7469c21e557">
 
 
 ## Q LEARNING ALGORITHM
