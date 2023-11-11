@@ -100,7 +100,6 @@ def q_learning(env, gamma=1.0, init_alpha=0.5,
     pi=lambda s:{s:a for s,a in enumerate(np.argmax(Q,axis=1))}[s]
 
     return Q, V, pi, Q_track, pi_track
-
 ```
 
 ## OUTPUT:
