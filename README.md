@@ -6,21 +6,21 @@ To develop a Python program to find the optimal policy for the given RL environm
 ## PROBLEM STATEMENT
 The bandit slippery walk problem is a reinforcement learning problem in which an agent must learn to navigate a 7-state environment in order to reach a goal state. The environment is slippery, so the agent has a chance of moving in the opposite direction of the action it takes.
 
-### STATE 
+#### STATE 
 
 The environment has 7 states:
 
 * Two Terminal States: G: The goal state & H: A hole state.
 * Five Transition states / Non-terminal States including S: The starting state.
     
-### ACTION
+#### ACTION
 
 The agent can take two actions:
 
  * R: Move right.
  * L: Move left.
 
-### TRANSITION PROBABILITIES
+#### TRANSITION PROBABILITIES
 
 The transition probabilities for each action are as follows:
 
@@ -30,11 +30,11 @@ The transition probabilities for each action are as follows:
     
 For example, if the agent is in state S and takes the "R" action, then there is a 50% chance that it will move to state 4, a 33.33% chance that it will stay in state S, and a 16.66% chance that it will move to state 2.
 
-### REWARD
+#### REWARD
 
 The agent receives a reward of +1 for reaching the goal state (G). The agent receives a reward of 0 for all other states.
 
-### GRAPHICAL REPRESENTATION
+#### GRAPHICAL REPRESENTATION
 
 <img width="553" alt="image" src="https://github.com/Monisha-11/q-learning/assets/93427240/01dc3ef9-7906-412b-b0ba-a7469c21e557">
 
@@ -105,20 +105,20 @@ def q_learning(env, gamma=1.0, init_alpha=0.5,
 
 ## OUTPUT:
 
-### OPTIMAL STATE VALUE FUNCTIONS:
+#### OPTIMAL STATE VALUE FUNCTIONS:
 ![image](https://github.com/Aashima02/q-learning/assets/93427086/2ef00fe5-26ab-4f70-ae86-7d89f14f3e25)
 
 
-### OPTIMAL ACTION VALUE FUNCTION:
+#### OPTIMAL ACTION VALUE FUNCTION:
 
 ![image](https://github.com/Aashima02/q-learning/assets/93427086/22a8387f-b4c9-4464-975f-02a7f05e37d8)
 
 
-### STATE VALUE FUNCTION OF MONTE CARLO METHOD:
+#### STATE VALUE FUNCTION OF MONTE CARLO METHOD:
 
 <img width="553" alt="image" src="https://github.com/Aashima02/q-learning/assets/93427086/5db347aa-c41d-4be6-b353-60fc886177e3">
 
-### STATE VALUE FUNCTION OF Q-LEARNING METHOD:
+#### STATE VALUE FUNCTION OF Q-LEARNING METHOD:
 
 <img width="551" alt="image" src="https://github.com/Aashima02/q-learning/assets/93427086/ddc98542-4af1-4d71-a325-2905bab69fd8">
 
