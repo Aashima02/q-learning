@@ -110,8 +110,8 @@ def q_learning(env, gamma=1.0, init_alpha=0.5,
 
 #### OPTIMAL ACTION VALUE FUNCTION:
 
-![image](https://github.com/Aashima02/q-learning/assets/93427086/22a8387f-b4c9-4464-975f-02a7f05e37d8)
 
+<img width="553" alt="image" src="https://github.com/Aashima02/q-learning/assets/93427086/22a8387f-b4c9-4464-975f-02a7f05e37d8">
 
 #### STATE VALUE FUNCTION OF MONTE CARLO METHOD:
 
