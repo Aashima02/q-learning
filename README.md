@@ -105,7 +105,7 @@ def q_learning(env, gamma=1.0, init_alpha=0.5,
 ## OUTPUT:
 
 #### OPTIMAL STATE VALUE FUNCTIONS:
-![image](https://github.com/Aashima02/q-learning/assets/93427086/2ef00fe5-26ab-4f70-ae86-7d89f14f3e25)
+<img width="553" alt="image" src="https://github.com/Aashima02/q-learning/assets/93427086/2ef00fe5-26ab-4f70-ae86-7d89f14f3e25">
 
 
 #### OPTIMAL ACTION VALUE FUNCTION:
